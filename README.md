@@ -18,7 +18,6 @@ The main collection of problems covering core bioinformatics concepts:
 
 - DNA/RNA string operations
 - Sequence alignment and comparison
-- 
 ## Directory Structure
 
 ```
