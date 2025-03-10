@@ -23,9 +23,6 @@ The main collection of problems covering core bioinformatics concepts:
 ```
 .
 ├── stronghold/           # Bioinformatics Stronghold problems
-├── armory/               # Bioinformatics Armory problems
-├── heights/              # Algorithmic Heights problems
-├── utils/                # Utility functions used across problems
 └── data/                 # Example datasets for testing
 ```
 
