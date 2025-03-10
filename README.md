@@ -11,6 +11,24 @@ Each solution includes:
 - My solution code (primarily in Python)
 - Performance considerations where relevant
 
+## Featured Solutions
+
+### [DNA Base Counting](https://github.com/adeena210/rosalindProblems/blob/main/stronghold/counting_dna.ipynb)
+
+Three different implementations with performance benchmarks:
+
+1. **Naive Approach** - Using a simple for loop with conditionals
+2. **Built-in Methods** - Using Python's string count() method
+3. **Counter Approach** - Using Python's collections.Counter
+
+### [Reverse Complement](https://github.com/adeena210/rosalindProblems/blob/main/stronghold/reverse_complement_dna.ipynb)
+
+Three different implementations with performance and memory usage benchmarks:
+
+1. **Naive Approach** - Using string slicing and concatenation in a loop
+2. **List Comprehension** - Using a list to store complemented bases before joining
+3. **Generator Approach** - Using a generator expression with reversed iteration
+
 ## Problem Categories
 
 ### Bioinformatics Stronghold
