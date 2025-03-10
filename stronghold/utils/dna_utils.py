@@ -14,6 +14,25 @@ def read_dna_from_txt_file(file_path):
     return dna_string
 
 
+def read_dna_from_fasta_file(file_path):
+    dna_dict = {}
+    with open(file_path, "r") as file:
+        current_id = ""
+        dna_string = ""
+        for line in file:
+            line = line.strip()
+            if line.startswith(">"):
+                if current_id:
+                    dna_dict[current_id] = dna_string
+                    dna_string = ""
+                current_id = line[1:]
+            else:
+                dna_string += line
+        if current_id and dna_string:
+            dna_dict[current_id] = dna_string
+    return dna_dict
+
+
 def benchmark(func, dna, iterations=1):
     start = time.time()
     for iteration in range(iterations):
